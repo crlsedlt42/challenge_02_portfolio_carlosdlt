@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/* Comment */
+
 body {
     background-color: #d9dcd6;
     font-family:'Times New Roman', Times, serif, 'Arial', 'Lucida Sans';
@@ -37,7 +37,7 @@ header nav ul {
     float: right;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 50px;
 
 }
@@ -56,7 +56,7 @@ header nav {
 
 
 .hero {
-    height:800px;
+    height:500px;
     width: 100%;
     margin-bottom: 50px;
     background-image: url(../assets/background.jpg);
@@ -64,5 +64,13 @@ header nav {
 }
 
 .hero img {
-    height: 250px
+    height: 250px;
+    margin-block: 125px;
+    margin-left: 25px;
+}
+
+footer {
+    
+    margin-bottom: 25px;
+    padding-top: 25px;
 }
