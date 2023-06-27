@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Comment */
+body {
+    background-color: #d9dcd6;
+    font-family:'Times New Roman', Times, serif, 'Arial', 'Lucida Sans';
+
+}
+
+header {
+
+    padding: 10px;
+    font-family: 'Times New Roman','Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif', 'Trebuchet';
+    background-color: #aa241b;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+header h1 {
+
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bolder;
+    border: 5px solid;
+    
+}
+
+header nav ul {
+
+    list-style-type: none;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+
+header nav {
+    margin: 25px;
+    border: 2.5px;
+    border-color: #000000;
+    padding: 20px;
+    float: left;
+    font-family: 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif', 'Trebuchet', 'Times New Roman';
+}
+
+
+
+
+.hero {
+    height:800px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url(../assets/background.jpg);
+
+}
+
+.hero img {
+    height: 250px
+}
