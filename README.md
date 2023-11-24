@@ -8,4 +8,5 @@ This week was difficult for me because I believed I was comfortable with CSS and
 
 I will have to review all CSS classes and class activities so that I can become comfortable and proficient enough to improve on this challenge. 
 
-(./assets/Screenshot.png)
+![](./assets/Screenshot.png)
+
